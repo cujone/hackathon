@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  # DATABASE
+  db:
+    image: mysql:8.0
+    container_name: db_universita
+    environment:
+      MYSQL_DATABASE: universita_db # Ho dato un nome al DB
+      MYSQL_ROOT_PASSWORD: root # Password semplice per lo sviluppo
+    volumes:
+      # Questa riga dice: "Prendi il file init.sql dalla cartella init_db
+      # ed eseguilo appena il database si accende"
+      - ./init_db:/docker-entrypoint-initdb.d
+      - db_data:/var/lib/mysql
+    ports:
+      - "3307:3306"
+
+  # APP (Il codice che userà i dati)
+  app:
+    build: .
+    container_name: app_universita
+    ports:
+      - "5000:5000" # Porta standard, la cambiamo se serve
+    depends_on:
+      - db
+    environment:
+      # Queste sono le info che userai nel tuo codice per collegarti
+      DB_HOST: db
+      DB_USER: root
+      DB_PASSWORD: root
+      DB_NAME: universita_db
+
+volumes:
+  db_data:

@@ -1,0 +1,15 @@
+# Ignora i file compilati di Python
+__pycache__/
+*.pyc
+
+# Ignora la cartella dell'ambiente virtuale (se ne hai una locale)
+venv/
+.env
+
+# Ignora i dati del Database salvati da Docker (IMPORTANTISSIMO)
+# Se non lo metti, carichi centinaia di MB inutili
+mysql-data/
+db_data/
+
+# Ignora file di sistema
+.DS_Store
