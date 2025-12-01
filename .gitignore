@@ -4,6 +4,7 @@ __pycache__/
 
 # Ignora la cartella dell'ambiente virtuale (se ne hai una locale)
 venv/
+.venv/
 .env
 
 # Ignora i dati del Database salvati da Docker (IMPORTANTISSIMO)

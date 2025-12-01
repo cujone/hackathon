@@ -1,0 +1,345 @@
+ANNO,AteneoCOD,AteneoNOME,AteneoREGIONE,Genere,SPECIALIZZANDI
+2023/2024,09201,Cagliari - Universita' degli studi,Sardegna,F,822
+2023/2024,09201,Cagliari - Universita' degli studi,Sardegna,M,468
+2023/2024,09001,Sassari - Universita' degli studi,Sardegna,F,279
+2023/2024,09001,Sassari - Universita' degli studi,Sardegna,M,204
+2023/2024,08701,Catania - Universita' degli studi,Sicilia,F,858
+2023/2024,08701,Catania - Universita' degli studi,Sicilia,M,613
+2023/2024,08301,Messina - Universita' degli studi,Sicilia,F,826
+2023/2024,08301,Messina - Universita' degli studi,Sicilia,M,578
+2023/2024,08201,Palermo - Universita' degli studi,Sicilia,F,859
+2023/2024,08201,Palermo - Universita' degli studi,Sicilia,M,623
+2023/2024,08001,Reggio Calabria - Universita' degli studi Mediterranea,Calabria,F,9
+2023/2024,08001,Reggio Calabria - Universita' degli studi Mediterranea,Calabria,M,2
+2023/2024,07901,"Catanzaro - Universita' degli studi ""Magna Grecia""",Calabria,F,460
+2023/2024,07901,"Catanzaro - Universita' degli studi ""Magna Grecia""",Calabria,M,369
+2023/2024,07801,Arcavacata di Rende - Universita' della Calabria,Calabria,F,8
+2023/2024,07801,Arcavacata di Rende - Universita' della Calabria,Calabria,M,3
+2023/2024,07601,Potenza - Universita' degli studi della Basilicata,Basilicata,F,22
+2023/2024,07601,Potenza - Universita' degli studi della Basilicata,Basilicata,M,13
+2023/2024,07501,Lecce - Universita' del Salento,Puglia,F,26
+2023/2024,07501,Lecce - Universita' del Salento,Puglia,M,17
+2023/2024,07202,Bari - Politecnico,Puglia,F,5
+2023/2024,07202,Bari - Politecnico,Puglia,M,4
+2023/2024,07201,Bari - Universita' degli studi,Puglia,F,1264
+2023/2024,07201,Bari - Universita' degli studi,Puglia,M,841
+2023/2024,07001,Campobasso - Universita' degli studi del Molise,Molise,F,48
+2023/2024,07001,Campobasso - Universita' degli studi del Molise,Molise,M,37
+2023/2024,06901,Chieti e Pescara - Universita' degli studi Gabriele D'Annunzio,Abruzzo,F,370
+2023/2024,06901,Chieti e Pescara - Universita' degli studi Gabriele D'Annunzio,Abruzzo,M,261
+2023/2024,06701,Teramo - Universita' degli studi,Abruzzo,F,130
+2023/2024,06701,Teramo - Universita' degli studi,Abruzzo,M,82
+2023/2024,06601,L'Aquila - Universita' degli studi,Abruzzo,F,326
+2023/2024,06601,L'Aquila - Universita' degli studi,Abruzzo,M,285
+2023/2024,06501,Salerno - Universita' degli studi,Campania,F,352
+2023/2024,06501,Salerno - Universita' degli studi,Campania,M,277
+2023/2024,06306,"Napoli - Universita' degli studi della Campania ""Luigi Vanvitelli""",Campania,F,912
+2023/2024,06306,"Napoli - Universita' degli studi della Campania ""Luigi Vanvitelli""",Campania,M,821
+2023/2024,06304,"Napoli - Universita' degli studi ""Suor Orsola Benincasa""",Campania,F,68
+2023/2024,06304,"Napoli - Universita' degli studi ""Suor Orsola Benincasa""",Campania,M,26
+2023/2024,06302,"Napoli - Universita' degli studi ""Parthenope""",Campania,F,7
+2023/2024,06302,"Napoli - Universita' degli studi ""Parthenope""",Campania,M,11
+2023/2024,06301,"Napoli - Universita' degli studi ""Federico II""",Campania,F,1134
+2023/2024,06301,"Napoli - Universita' degli studi ""Federico II""",Campania,M,988
+2023/2024,05818,Roma - Saint Camillus International,Lazio,F,1
+2023/2024,05818,Roma - Saint Camillus International,Lazio,M,3
+2023/2024,05810,"Roma - Universita' telematica ""Guglielmo Marconi""",Lazio,F,32
+2023/2024,05810,"Roma - Universita' telematica ""Guglielmo Marconi""",Lazio,M,32
+2023/2024,05808,"Roma - Universita' ""Campus Bio-Medico""",Lazio,F,329
+2023/2024,05808,"Roma - Universita' ""Campus Bio-Medico""",Lazio,M,292
+2023/2024,05803,Roma - Libera Universita' Maria SS.Assunta (LUMSA),Lazio,F,8
+2023/2024,05803,Roma - Libera Universita' Maria SS.Assunta (LUMSA),Lazio,M,2
+2023/2024,05802,"Roma - Universita' degli studi di ""Tor Vergata""",Lazio,F,810
+2023/2024,05802,"Roma - Universita' degli studi di ""Tor Vergata""",Lazio,M,501
+2023/2024,05801,"Roma - Universita' degli studi ""La Sapienza""",Lazio,F,2172
+2023/2024,05801,"Roma - Universita' degli studi ""La Sapienza""",Lazio,M,1322
+2023/2024,05401,Perugia - Universita' degli studi,Umbria,F,438
+2023/2024,05401,Perugia - Universita' degli studi,Umbria,M,312
+2023/2024,05202,Siena - Universita' per stranieri,Toscana,F,22
+2023/2024,05202,Siena - Universita' per stranieri,Toscana,M,5
+2023/2024,05201,Siena - Universita' degli studi,Toscana,F,552
+2023/2024,05201,Siena - Universita' degli studi,Toscana,M,359
+2023/2024,05001,Pisa - Universita',Toscana,F,885
+2023/2024,05001,Pisa - Universita',Toscana,M,551
+2023/2024,04801,Firenze - Universita' degli studi,Toscana,F,1269
+2023/2024,04801,Firenze - Universita' degli studi,Toscana,M,921
+2023/2024,04302,Camerino - Universita' degli studi,Marche,F,30
+2023/2024,04302,Camerino - Universita' degli studi,Marche,M,12
+2023/2024,04301,Macerata - Universita' degli studi,Marche,F,58
+2023/2024,04301,Macerata - Universita' degli studi,Marche,M,35
+2023/2024,04201,Ancona - Universita' Politecnica delle Marche,Marche,F,521
+2023/2024,04201,Ancona - Universita' Politecnica delle Marche,Marche,M,392
+2023/2024,03801,Ferrara - Universita' degli studi,Emilia Romagna,F,635
+2023/2024,03801,Ferrara - Universita' degli studi,Emilia Romagna,M,403
+2023/2024,03701,Bologna - Universita' degli studi,Emilia Romagna,F,1506
+2023/2024,03701,Bologna - Universita' degli studi,Emilia Romagna,M,1135
+2023/2024,03601,Modena e Reggio Emilia - Universita' degli studi,Emilia Romagna,F,909
+2023/2024,03601,Modena e Reggio Emilia - Universita' degli studi,Emilia Romagna,M,600
+2023/2024,03401,Parma - Universita' degli studi,Emilia Romagna,F,583
+2023/2024,03401,Parma - Universita' degli studi,Emilia Romagna,M,416
+2023/2024,03201,Trieste - Universita' degli studi,Friuli Venezia Giulia,F,478
+2023/2024,03201,Trieste - Universita' degli studi,Friuli Venezia Giulia,M,330
+2023/2024,03001,Udine - Universita' degli studi,Friuli Venezia Giulia,F,358
+2023/2024,03001,Udine - Universita' degli studi,Friuli Venezia Giulia,M,228
+2023/2024,02801,Padova - Universita' degli studi,Veneto,F,1703
+2023/2024,02801,Padova - Universita' degli studi,Veneto,M,1236
+2023/2024,02702,Venezia - Universita' IUAV,Veneto,F,13
+2023/2024,02702,Venezia - Universita' IUAV,Veneto,M,9
+2023/2024,02301,Verona - Universita' degli studi,Veneto,F,1166
+2023/2024,02301,Verona - Universita' degli studi,Veneto,M,825
+2023/2024,01801,Pavia - Universita' degli studi,Lombardia,F,820
+2023/2024,01801,Pavia - Universita' degli studi,Lombardia,M,578
+2023/2024,01701,Brescia - Universita' degli studi,Lombardia,F,773
+2023/2024,01701,Brescia - Universita' degli studi,Lombardia,M,539
+2023/2024,01601,Bergamo - Universita' degli studi,Lombardia,F,12
+2023/2024,01601,Bergamo - Universita' degli studi,Lombardia,M,1
+2023/2024,01510,Rozzano (MI) - Humanitas University,Lombardia,F,250
+2023/2024,01510,Rozzano (MI) - Humanitas University,Lombardia,M,294
+2023/2024,01509,Milano-Bicocca - Universita' degli studi,Lombardia,F,816
+2023/2024,01509,Milano-Bicocca - Universita' degli studi,Lombardia,M,498
+2023/2024,01508,Milano - Universita' Vita-Salute San Raffaele,Lombardia,F,544
+2023/2024,01508,Milano - Universita' Vita-Salute San Raffaele,Lombardia,M,486
+2023/2024,01504,"Milano - Universita' Cattolica del ""Sacro Cuore""",Lombardia,F,1210
+2023/2024,01504,"Milano - Universita' Cattolica del ""Sacro Cuore""",Lombardia,M,873
+2023/2024,01501,Milano - Universita' degli studi,Lombardia,F,2264
+2023/2024,01501,Milano - Universita' degli studi,Lombardia,M,1607
+2023/2024,01202,Varese - Universita' dell' Insubria,Lombardia,F,356
+2023/2024,01202,Varese - Universita' dell' Insubria,Lombardia,M,246
+2023/2024,01001,Genova - Universita' degli studi,Liguria,F,921
+2023/2024,01001,Genova - Universita' degli studi,Liguria,M,552
+2023/2024,00201,"Vercelli - Universita' degli studi del Piemonte orientale ""A. Avogadro""",Piemonte,F,410
+2023/2024,00201,"Vercelli - Universita' degli studi del Piemonte orientale ""A. Avogadro""",Piemonte,M,248
+2023/2024,00101,Torino - Universita' degli studi,Piemonte,F,1774
+2023/2024,00101,Torino - Universita' degli studi,Piemonte,M,1182
+2022/2023,09201,Cagliari - Universita' degli studi,Sardegna,F,812
+2022/2023,09201,Cagliari - Universita' degli studi,Sardegna,M,474
+2022/2023,09001,Sassari - Universita' degli studi,Sardegna,F,383
+2022/2023,09001,Sassari - Universita' degli studi,Sardegna,M,257
+2022/2023,08701,Catania - Universita' degli studi,Sicilia,F,803
+2022/2023,08701,Catania - Universita' degli studi,Sicilia,M,610
+2022/2023,08301,Messina - Universita' degli studi,Sicilia,F,845
+2022/2023,08301,Messina - Universita' degli studi,Sicilia,M,583
+2022/2023,08201,Palermo - Universita' degli studi,Sicilia,F,934
+2022/2023,08201,Palermo - Universita' degli studi,Sicilia,M,679
+2022/2023,08001,Reggio Calabria - Universita' degli studi Mediterranea,Calabria,F,3
+2022/2023,08001,Reggio Calabria - Universita' degli studi Mediterranea,Calabria,M,2
+2022/2023,07901,"Catanzaro - Universita' degli studi ""Magna Grecia""",Calabria,F,460
+2022/2023,07901,"Catanzaro - Universita' degli studi ""Magna Grecia""",Calabria,M,349
+2022/2023,07801,Arcavacata di Rende - Universita' della Calabria,Calabria,F,13
+2022/2023,07801,Arcavacata di Rende - Universita' della Calabria,Calabria,M,8
+2022/2023,07601,Potenza - Universita' degli studi della Basilicata,Basilicata,F,20
+2022/2023,07601,Potenza - Universita' degli studi della Basilicata,Basilicata,M,15
+2022/2023,07501,Lecce - Universita' del Salento,Puglia,F,37
+2022/2023,07501,Lecce - Universita' del Salento,Puglia,M,20
+2022/2023,07202,Bari - Politecnico,Puglia,F,3
+2022/2023,07202,Bari - Politecnico,Puglia,M,1
+2022/2023,07201,Bari - Universita' degli studi,Puglia,F,1258
+2022/2023,07201,Bari - Universita' degli studi,Puglia,M,806
+2022/2023,07101,Foggia - Universita' degli studi,Puglia,F,287
+2022/2023,07101,Foggia - Universita' degli studi,Puglia,M,214
+2022/2023,07001,Campobasso - Universita' degli studi del Molise,Molise,F,47
+2022/2023,07001,Campobasso - Universita' degli studi del Molise,Molise,M,28
+2022/2023,06901,Chieti e Pescara - Universita' degli studi Gabriele D'Annunzio,Abruzzo,F,412
+2022/2023,06901,Chieti e Pescara - Universita' degli studi Gabriele D'Annunzio,Abruzzo,M,282
+2022/2023,06701,Teramo - Universita' degli studi,Abruzzo,F,126
+2022/2023,06701,Teramo - Universita' degli studi,Abruzzo,M,90
+2022/2023,06601,L'Aquila - Universita' degli studi,Abruzzo,F,346
+2022/2023,06601,L'Aquila - Universita' degli studi,Abruzzo,M,290
+2022/2023,06501,Salerno - Universita' degli studi,Campania,F,292
+2022/2023,06501,Salerno - Universita' degli studi,Campania,M,244
+2022/2023,06306,"Napoli - Universita' degli studi della Campania ""Luigi Vanvitelli""",Campania,F,1126
+2022/2023,06306,"Napoli - Universita' degli studi della Campania ""Luigi Vanvitelli""",Campania,M,890
+2022/2023,06304,"Napoli - Universita' degli studi ""Suor Orsola Benincasa""",Campania,F,74
+2022/2023,06304,"Napoli - Universita' degli studi ""Suor Orsola Benincasa""",Campania,M,25
+2022/2023,06302,"Napoli - Universita' degli studi ""Parthenope""",Campania,F,12
+2022/2023,06302,"Napoli - Universita' degli studi ""Parthenope""",Campania,M,17
+2022/2023,06301,"Napoli - Universita' degli studi ""Federico II""",Campania,F,1609
+2022/2023,06301,"Napoli - Universita' degli studi ""Federico II""",Campania,M,1265
+2022/2023,05810,"Roma - Universita' telematica ""Guglielmo Marconi""",Lazio,F,46
+2022/2023,05810,"Roma - Universita' telematica ""Guglielmo Marconi""",Lazio,M,42
+2022/2023,05808,"Roma - Universita' ""Campus Bio-Medico""",Lazio,F,308
+2022/2023,05808,"Roma - Universita' ""Campus Bio-Medico""",Lazio,M,276
+2022/2023,05803,Roma - Libera Universita' Maria SS.Assunta (LUMSA),Lazio,F,24
+2022/2023,05803,Roma - Libera Universita' Maria SS.Assunta (LUMSA),Lazio,M,5
+2022/2023,05802,"Roma - Universita' degli studi di ""Tor Vergata""",Lazio,F,899
+2022/2023,05802,"Roma - Universita' degli studi di ""Tor Vergata""",Lazio,M,582
+2022/2023,05801,"Roma - Universita' degli studi ""La Sapienza""",Lazio,F,2443
+2022/2023,05801,"Roma - Universita' degli studi ""La Sapienza""",Lazio,M,1487
+2022/2023,05401,Perugia - Universita' degli studi,Umbria,F,466
+2022/2023,05401,Perugia - Universita' degli studi,Umbria,M,349
+2022/2023,05202,Siena - Universita' per stranieri,Toscana,F,29
+2022/2023,05202,Siena - Universita' per stranieri,Toscana,M,4
+2022/2023,05201,Siena - Universita' degli studi,Toscana,F,569
+2022/2023,05201,Siena - Universita' degli studi,Toscana,M,393
+2022/2023,05001,Pisa - Universita',Toscana,F,838
+2022/2023,05001,Pisa - Universita',Toscana,M,543
+2022/2023,04801,Firenze - Universita' degli studi,Toscana,F,1278
+2022/2023,04801,Firenze - Universita' degli studi,Toscana,M,930
+2022/2023,04302,Camerino - Universita' degli studi,Marche,F,109
+2022/2023,04302,Camerino - Universita' degli studi,Marche,M,61
+2022/2023,04301,Macerata - Universita' degli studi,Marche,F,76
+2022/2023,04301,Macerata - Universita' degli studi,Marche,M,43
+2022/2023,04201,Ancona - Universita' Politecnica delle Marche,Marche,F,512
+2022/2023,04201,Ancona - Universita' Politecnica delle Marche,Marche,M,409
+2022/2023,03801,Ferrara - Universita' degli studi,Emilia Romagna,F,603
+2022/2023,03801,Ferrara - Universita' degli studi,Emilia Romagna,M,398
+2022/2023,03701,Bologna - Universita' degli studi,Emilia Romagna,F,1527
+2022/2023,03701,Bologna - Universita' degli studi,Emilia Romagna,M,1204
+2022/2023,03601,Modena e Reggio Emilia - Universita' degli studi,Emilia Romagna,F,888
+2022/2023,03601,Modena e Reggio Emilia - Universita' degli studi,Emilia Romagna,M,593
+2022/2023,03401,Parma - Universita' degli studi,Emilia Romagna,F,606
+2022/2023,03401,Parma - Universita' degli studi,Emilia Romagna,M,397
+2022/2023,03201,Trieste - Universita' degli studi,Friuli Venezia Giulia,F,451
+2022/2023,03201,Trieste - Universita' degli studi,Friuli Venezia Giulia,M,315
+2022/2023,03001,Udine - Universita' degli studi,Friuli Venezia Giulia,F,335
+2022/2023,03001,Udine - Universita' degli studi,Friuli Venezia Giulia,M,226
+2022/2023,02801,Padova - Universita' degli studi,Veneto,F,1721
+2022/2023,02801,Padova - Universita' degli studi,Veneto,M,1244
+2022/2023,02702,Venezia - Universita' IUAV,Veneto,F,14
+2022/2023,02702,Venezia - Universita' IUAV,Veneto,M,5
+2022/2023,02301,Verona - Universita' degli studi,Veneto,F,1154
+2022/2023,02301,Verona - Universita' degli studi,Veneto,M,841
+2022/2023,02201,Trento - Universita' degli studi,Trentino Alto Adige,F,19
+2022/2023,02201,Trento - Universita' degli studi,Trentino Alto Adige,M,3
+2022/2023,01801,Pavia - Universita' degli studi,Lombardia,F,823
+2022/2023,01801,Pavia - Universita' degli studi,Lombardia,M,583
+2022/2023,01701,Brescia - Universita' degli studi,Lombardia,F,752
+2022/2023,01701,Brescia - Universita' degli studi,Lombardia,M,524
+2022/2023,01510,Rozzano (MI) - Humanitas University,Lombardia,F,213
+2022/2023,01510,Rozzano (MI) - Humanitas University,Lombardia,M,276
+2022/2023,01509,Milano-Bicocca - Universita' degli studi,Lombardia,F,729
+2022/2023,01509,Milano-Bicocca - Universita' degli studi,Lombardia,M,464
+2022/2023,01508,Milano - Universita' Vita-Salute San Raffaele,Lombardia,F,489
+2022/2023,01508,Milano - Universita' Vita-Salute San Raffaele,Lombardia,M,467
+2022/2023,01504,"Milano - Universita' Cattolica del ""Sacro Cuore""",Lombardia,F,1176
+2022/2023,01504,"Milano - Universita' Cattolica del ""Sacro Cuore""",Lombardia,M,902
+2022/2023,01502,Milano - Politecnico,Lombardia,F,14
+2022/2023,01502,Milano - Politecnico,Lombardia,M,6
+2022/2023,01501,Milano - Universita' degli studi,Lombardia,F,2170
+2022/2023,01501,Milano - Universita' degli studi,Lombardia,M,1616
+2022/2023,01202,Varese - Universita' dell' Insubria,Lombardia,F,349
+2022/2023,01202,Varese - Universita' dell' Insubria,Lombardia,M,242
+2022/2023,01001,Genova - Universita' degli studi,Liguria,F,868
+2022/2023,01001,Genova - Universita' degli studi,Liguria,M,565
+2022/2023,00201,"Vercelli - Universita' degli studi del Piemonte orientale ""A. Avogadro""",Piemonte,F,413
+2022/2023,00201,"Vercelli - Universita' degli studi del Piemonte orientale ""A. Avogadro""",Piemonte,M,236
+2022/2023,00101,Torino - Universita' degli studi,Piemonte,F,1718
+2022/2023,00101,Torino - Universita' degli studi,Piemonte,M,1148
+2021/2022,09201,Cagliari - Universita' degli studi,Sardegna,F,725
+2021/2022,09201,Cagliari - Universita' degli studi,Sardegna,M,419
+2021/2022,09001,Sassari - Universita' degli studi,Sardegna,F,437
+2021/2022,09001,Sassari - Universita' degli studi,Sardegna,M,294
+2021/2022,08701,Catania - Universita' degli studi,Sicilia,F,779
+2021/2022,08701,Catania - Universita' degli studi,Sicilia,M,553
+2021/2022,08601,"Enna - Libera Universita' della Sicilia Centrale ""KORE""",Sicilia,F,1
+2021/2022,08601,"Enna - Libera Universita' della Sicilia Centrale ""KORE""",Sicilia,M,2
+2021/2022,08301,Messina - Universita' degli studi,Sicilia,F,776
+2021/2022,08301,Messina - Universita' degli studi,Sicilia,M,552
+2021/2022,08201,Palermo - Universita' degli studi,Sicilia,F,873
+2021/2022,08201,Palermo - Universita' degli studi,Sicilia,M,639
+2021/2022,08001,Reggio Calabria - Universita' degli studi Mediterranea,Calabria,F,22
+2021/2022,08001,Reggio Calabria - Universita' degli studi Mediterranea,Calabria,M,3
+2021/2022,07901,"Catanzaro - Universita' degli studi ""Magna Grecia""",Calabria,F,439
+2021/2022,07901,"Catanzaro - Universita' degli studi ""Magna Grecia""",Calabria,M,317
+2021/2022,07801,Arcavacata di Rende - Universita' della Calabria,Calabria,F,16
+2021/2022,07801,Arcavacata di Rende - Universita' della Calabria,Calabria,M,9
+2021/2022,07601,Potenza - Universita' degli studi della Basilicata,Basilicata,F,21
+2021/2022,07601,Potenza - Universita' degli studi della Basilicata,Basilicata,M,15
+2021/2022,07501,Lecce - Universita' del Salento,Puglia,F,52
+2021/2022,07501,Lecce - Universita' del Salento,Puglia,M,22
+2021/2022,07202,Bari - Politecnico,Puglia,F,10
+2021/2022,07202,Bari - Politecnico,Puglia,M,4
+2021/2022,07201,Bari - Universita' degli studi,Puglia,F,1232
+2021/2022,07201,Bari - Universita' degli studi,Puglia,M,772
+2021/2022,07101,Foggia - Universita' degli studi,Puglia,F,345
+2021/2022,07101,Foggia - Universita' degli studi,Puglia,M,238
+2021/2022,07001,Campobasso - Universita' degli studi del Molise,Molise,F,38
+2021/2022,07001,Campobasso - Universita' degli studi del Molise,Molise,M,24
+2021/2022,06901,Chieti e Pescara - Universita' degli studi Gabriele D'Annunzio,Abruzzo,F,399
+2021/2022,06901,Chieti e Pescara - Universita' degli studi Gabriele D'Annunzio,Abruzzo,M,260
+2021/2022,06701,Teramo - Universita' degli studi,Abruzzo,F,125
+2021/2022,06701,Teramo - Universita' degli studi,Abruzzo,M,88
+2021/2022,06601,L'Aquila - Universita' degli studi,Abruzzo,F,325
+2021/2022,06601,L'Aquila - Universita' degli studi,Abruzzo,M,267
+2021/2022,06501,Salerno - Universita' degli studi,Campania,F,249
+2021/2022,06501,Salerno - Universita' degli studi,Campania,M,223
+2021/2022,06306,"Napoli - Universita' degli studi della Campania ""Luigi Vanvitelli""",Campania,F,1108
+2021/2022,06306,"Napoli - Universita' degli studi della Campania ""Luigi Vanvitelli""",Campania,M,803
+2021/2022,06304,"Napoli - Universita' degli studi ""Suor Orsola Benincasa""",Campania,F,88
+2021/2022,06304,"Napoli - Universita' degli studi ""Suor Orsola Benincasa""",Campania,M,26
+2021/2022,06302,"Napoli - Universita' degli studi ""Parthenope""",Campania,F,5
+2021/2022,06302,"Napoli - Universita' degli studi ""Parthenope""",Campania,M,7
+2021/2022,06301,"Napoli - Universita' degli studi ""Federico II""",Campania,F,1742
+2021/2022,06301,"Napoli - Universita' degli studi ""Federico II""",Campania,M,1264
+2021/2022,05815,Roma - Universita' telematica Niccolò Cusano (gia' UNISU),Lazio,F,6
+2021/2022,05815,Roma - Universita' telematica Niccolò Cusano (gia' UNISU),Lazio,M,9
+2021/2022,05810,"Roma - Universita' telematica ""Guglielmo Marconi""",Lazio,F,75
+2021/2022,05810,"Roma - Universita' telematica ""Guglielmo Marconi""",Lazio,M,61
+2021/2022,05808,"Roma - Universita' ""Campus Bio-Medico""",Lazio,F,280
+2021/2022,05808,"Roma - Universita' ""Campus Bio-Medico""",Lazio,M,256
+2021/2022,05803,Roma - Libera Universita' Maria SS.Assunta (LUMSA),Lazio,F,15
+2021/2022,05803,Roma - Libera Universita' Maria SS.Assunta (LUMSA),Lazio,M,1
+2021/2022,05802,"Roma - Universita' degli studi di ""Tor Vergata""",Lazio,F,889
+2021/2022,05802,"Roma - Universita' degli studi di ""Tor Vergata""",Lazio,M,555
+2021/2022,05801,"Roma - Universita' degli studi ""La Sapienza""",Lazio,F,2396
+2021/2022,05801,"Roma - Universita' degli studi ""La Sapienza""",Lazio,M,1445
+2021/2022,05401,Perugia - Universita' degli studi,Umbria,F,486
+2021/2022,05401,Perugia - Universita' degli studi,Umbria,M,345
+2021/2022,05202,Siena - Universita' per stranieri,Toscana,F,26
+2021/2022,05202,Siena - Universita' per stranieri,Toscana,M,4
+2021/2022,05201,Siena - Universita' degli studi,Toscana,F,557
+2021/2022,05201,Siena - Universita' degli studi,Toscana,M,394
+2021/2022,05001,Pisa - Universita',Toscana,F,831
+2021/2022,05001,Pisa - Universita',Toscana,M,520
+2021/2022,04801,Firenze - Universita' degli studi,Toscana,F,1195
+2021/2022,04801,Firenze - Universita' degli studi,Toscana,M,910
+2021/2022,04302,Camerino - Universita' degli studi,Marche,F,97
+2021/2022,04302,Camerino - Universita' degli studi,Marche,M,69
+2021/2022,04301,Macerata - Universita' degli studi,Marche,F,60
+2021/2022,04301,Macerata - Universita' degli studi,Marche,M,44
+2021/2022,04201,Ancona - Universita' Politecnica delle Marche,Marche,F,455
+2021/2022,04201,Ancona - Universita' Politecnica delle Marche,Marche,M,353
+2021/2022,03801,Ferrara - Universita' degli studi,Emilia Romagna,F,558
+2021/2022,03801,Ferrara - Universita' degli studi,Emilia Romagna,M,356
+2021/2022,03701,Bologna - Universita' degli studi,Emilia Romagna,F,1408
+2021/2022,03701,Bologna - Universita' degli studi,Emilia Romagna,M,1140
+2021/2022,03601,Modena e Reggio Emilia - Universita' degli studi,Emilia Romagna,F,829
+2021/2022,03601,Modena e Reggio Emilia - Universita' degli studi,Emilia Romagna,M,545
+2021/2022,03401,Parma - Universita' degli studi,Emilia Romagna,F,567
+2021/2022,03401,Parma - Universita' degli studi,Emilia Romagna,M,374
+2021/2022,03201,Trieste - Universita' degli studi,Friuli Venezia Giulia,F,448
+2021/2022,03201,Trieste - Universita' degli studi,Friuli Venezia Giulia,M,305
+2021/2022,03001,Udine - Universita' degli studi,Friuli Venezia Giulia,F,324
+2021/2022,03001,Udine - Universita' degli studi,Friuli Venezia Giulia,M,195
+2021/2022,02801,Padova - Universita' degli studi,Veneto,F,1632
+2021/2022,02801,Padova - Universita' degli studi,Veneto,M,1194
+2021/2022,02702,Venezia - Universita' IUAV,Veneto,F,26
+2021/2022,02702,Venezia - Universita' IUAV,Veneto,M,12
+2021/2022,02301,Verona - Universita' degli studi,Veneto,F,1096
+2021/2022,02301,Verona - Universita' degli studi,Veneto,M,826
+2021/2022,02201,Trento - Universita' degli studi,Trentino Alto Adige,F,29
+2021/2022,02201,Trento - Universita' degli studi,Trentino Alto Adige,M,6
+2021/2022,01801,Pavia - Universita' degli studi,Lombardia,F,783
+2021/2022,01801,Pavia - Universita' degli studi,Lombardia,M,589
+2021/2022,01701,Brescia - Universita' degli studi,Lombardia,F,698
+2021/2022,01701,Brescia - Universita' degli studi,Lombardia,M,518
+2021/2022,01510,Rozzano (MI) - Humanitas University,Lombardia,F,191
+2021/2022,01510,Rozzano (MI) - Humanitas University,Lombardia,M,252
+2021/2022,01509,Milano-Bicocca - Universita' degli studi,Lombardia,F,676
+2021/2022,01509,Milano-Bicocca - Universita' degli studi,Lombardia,M,424
+2021/2022,01508,Milano - Universita' Vita-Salute San Raffaele,Lombardia,F,440
+2021/2022,01508,Milano - Universita' Vita-Salute San Raffaele,Lombardia,M,423
+2021/2022,01504,"Milano - Universita' Cattolica del ""Sacro Cuore""",Lombardia,F,1084
+2021/2022,01504,"Milano - Universita' Cattolica del ""Sacro Cuore""",Lombardia,M,818
+2021/2022,01502,Milano - Politecnico,Lombardia,F,10
+2021/2022,01502,Milano - Politecnico,Lombardia,M,4
+2021/2022,01501,Milano - Universita' degli studi,Lombardia,F,1996
+2021/2022,01501,Milano - Universita' degli studi,Lombardia,M,1543
+2021/2022,01202,Varese - Universita' dell' Insubria,Lombardia,F,327
+2021/2022,01202,Varese - Universita' dell' Insubria,Lombardia,M,222
+2021/2022,01001,Genova - Universita' degli studi,Liguria,F,826
+2021/2022,01001,Genova - Universita' degli studi,Liguria,M,539
+2021/2022,00201,"Vercelli - Universita' degli studi del Piemonte orientale ""A. Avogadro""",Piemonte,F,394
+2021/2022,00201,"Vercelli - Universita' degli studi del Piemonte orientale ""A. Avogadro""",Piemonte,M,229
+2021/2022,00101,Torino - Universita' degli studi,Piemonte,F,1585
+2021/2022,00101,Torino - Universita' degli studi,Piemonte,M,1118

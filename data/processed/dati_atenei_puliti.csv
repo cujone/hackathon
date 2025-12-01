@@ -1,0 +1,102 @@
+COD_Ateneo,NomeOperativo,Statale/Non statale,Telematica/Non telematica
+00101,Torino,Statale,Non telematica
+00102,Torino Politecnico,Statale,Non telematica
+00201,Piemonte Orientale,Statale,Non telematica
+00401,Bra - Scienze Gastronomiche,Non statale,Non telematica
+00701,Aosta,Non statale,Non telematica
+01001,Genova,Statale,Non telematica
+01201,Castellanza LIUC,Non statale,Non telematica
+01202,Insubria,Statale,Non telematica
+01301,Novedrate e-Campus,Non statale,Telematica
+01501,Milano,Statale,Non telematica
+01502,Milano Politecnico,Statale,Non telematica
+01503,Milano Bocconi,Non statale,Non telematica
+01504,Milano Cattolica,Non statale,Non telematica
+01505,Milano IULM,Non statale,Non telematica
+01508,Milano San Raffaele,Non statale,Non telematica
+01509,Milano Bicocca,Statale,Non telematica
+01510,Rozzano (MI) Humanitas University,Non statale,Non telematica
+01601,Bergamo,Statale,Non telematica
+01701,Brescia,Statale,Non telematica
+01801,Pavia,Statale,Non telematica
+01802,Pavia IUSS,Statale,Non telematica
+02101,Bolzano,Non statale,Non telematica
+02201,Trento,Statale,Non telematica
+02301,Verona,Statale,Non telematica
+02701,Venezia Cà Foscari,Statale,Non telematica
+02702,Venezia Iuav,Statale,Non telematica
+02801,Padova,Statale,Non telematica
+03001,Udine,Statale,Non telematica
+03201,Trieste,Statale,Non telematica
+03202,Trieste SISSA,Statale,Non telematica
+03401,Parma,Statale,Non telematica
+03601,Modena e Reggio Emilia,Statale,Non telematica
+03701,Bologna,Statale,Non telematica
+03801,Ferrara,Statale,Non telematica
+04101,Urbino Carlo Bo,Statale,Non telematica
+04201,Marche,Statale,Non telematica
+04301,Macerata,Statale,Non telematica
+04302,Camerino,Statale,Non telematica
+04601,Lucca - IMT,Statale,Non telematica
+04801,Firenze,Statale,Non telematica
+04803,Firenze - Istituto Italiano di Scienze Umane,Statale,Non telematica
+04804,Firenze IUL,Non statale,Telematica
+05001,Pisa,Statale,Non telematica
+05002,Pisa Normale,Statale,Non telematica
+05003,Pisa S.Anna,Statale,Non telematica
+05201,Siena,Statale,Non telematica
+05202,Siena Stranieri,Statale,Non telematica
+05401,Perugia,Statale,Non telematica
+05403,Perugia Stranieri,Statale,Non telematica
+05601,Tuscia,Statale,Non telematica
+05801,Roma La Sapienza,Statale,Non telematica
+05802,Roma Tor Vergata,Statale,Non telematica
+05803,Roma LUMSA,Non statale,Non telematica
+05805,Roma LUISS,Non statale,Non telematica
+05806,Roma Foro Italico,Statale,Non telematica
+05807,Roma Tre,Statale,Non telematica
+05808,Roma Biomedico,Non statale,Non telematica
+05809,Roma UNINT,Non statale,Non telematica
+05810,Roma Marconi,Non statale,Telematica
+05811,Roma UNITELMA,Non statale,Telematica
+05812,Roma Europea,Non statale,Non telematica
+05813,Roma UNINETTUNO,Non statale,Telematica
+05814,Roma  Mercatorum,Non statale,Telematica
+05815,Roma UNICUSANO,Non statale,Telematica
+05816,Roma San Raffaele,Non statale,Telematica
+05817,Roma - Link Campus,Non statale,Non telematica
+05818,Roma - Saint Camillus,Non statale,Non telematica
+05819,Roma - CASD - Centro Alti Studi per la Difesa,Statale,Non telematica
+06001,Cassino,Statale,Non telematica
+06201,Sannio,Statale,Non telematica
+06202,Benevento - Giustino Fortunato,Non statale,Telematica
+06301,Napoli Federico II,Statale,Non telematica
+06302,Napoli Parthenope,Statale,Non telematica
+06303,Napoli L'Orientale,Statale,Non telematica
+06304,Napoli Benincasa,Non statale,Non telematica
+06306,Napoli Vanvitelli,Statale,Non telematica
+06307,Napoli Pegaso,Non statale,Telematica
+06308,Napoli SS Meridionale,Statale,Non telematica
+06501,Salerno,Statale,Non telematica
+06601,L'Aquila,Statale,Non telematica
+06603,L'Aquila - GSSI,Statale,Non telematica
+06701,Teramo,Statale,Non telematica
+06901,Chieti e Pescara,Statale,Non telematica
+06902,Torrevecchia Teatina - Leonardo da Vinci,Non statale,Telematica
+07001,Molise,Statale,Non telematica
+07101,Foggia,Statale,Non telematica
+07201,Bari,Statale,Non telematica
+07202,Bari Politecnico,Statale,Non telematica
+07203,Casamassima - G.Degennaro,Non statale,Non telematica
+07501,Salento,Statale,Non telematica
+07601,Basilicata,Statale,Non telematica
+07801,Calabria,Statale,Non telematica
+07901,Catanzaro,Statale,Non telematica
+08001,Reggio Calabria,Statale,Non telematica
+08003,Reggio Calabria - Dante Alighieri,Non statale,Non telematica
+08201,Palermo,Statale,Non telematica
+08301,Messina,Statale,Non telematica
+08601,Enna - KORE,Non statale,Non telematica
+08701,Catania,Statale,Non telematica
+09001,Sassari,Statale,Non telematica
+09201,Cagliari,Statale,Non telematica

@@ -24,6 +24,21 @@ services:
       - "5000:5000" # Porta standard, la cambiamo se serve
     depends_on:
       - db
+    #questi volumes sono una aggiunta per gestire i file in data (prende csv psorchi da raw, passa agli script py e carica su processed i csv puliti)
+    #togli i "##" per fargli fare così. per ora non ha senso perchè lavoro direttamente sui csv. se si volesse verificare che i csv usati combacino...
+    #...effettivamente con quelli usati, abilitare le righe con "##" ricalcorerebbe i csv nel folder "processed"
+    ##volumes:
+      ##- ./src:/app/src     # Mappa il codice (così se lo modifichi, si aggiorna)
+      #- ./src:/app/src: (Opzionale)
+       #collega la cartella src locale a quella del container
+       #vantaggio: Se modifico main.py o aggiungo uno script, non devo ricostruire l'immagine (docker-compose build) ogni volta. 
+       #basta riavviare (docker-compose restart app)
+      ##- ./data:/app/data   # Mappa la cartella dei dati (CSV sporchi e puliti)
+      #- ./data:/app/data è quella fondamentale
+       #docker prenderà la cartella dati che creo sul computer (nella cartella principale hackathon)
+       #la renderà disponibile dentro il container al percorso /app/data
+       #in questo modo, quando metti un CSV in hackathon/data/raw, Python lo vedrà in /app/data/raw
+       #quando Python salverà il file pulito in /app/data/processed, apparirà pure sul computer
     environment:
       # Queste sono le info che userai nel tuo codice per collegarti
       DB_HOST: db
