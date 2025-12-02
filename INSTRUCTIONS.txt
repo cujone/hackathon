@@ -52,6 +52,16 @@ ISTRUZIONI PER ESEGUIRE IL PROGETTO
    
    COMMAND (Windows/WSL/Linux): docker-compose down
 
+-----------------------------------------------------------------------------
+
+5. 📸 SALVARE LO STATO (SNAPSHOT)
+   Se vuoi salvare i dati attuali nel file 'init.sql' per distribuire il progetto
+   o per avere un backup:
+   
+   COMMAND (Windows): .\save_db_snapshot.bat
+   
+   oppure Doppio click su 'save_db_snapshot.bat'
+
 =============================================================================
 CONNESSIONE AL DATABASE (MySQL Workbench)
 =============================================================================

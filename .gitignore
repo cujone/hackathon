@@ -14,3 +14,10 @@ db_data/
 
 # Ignora file di sistema
 .DS_Store
+
+# Ignora il file init.sql
+init_db/init.sql
+#per ora ignoro pk è in continua fase di evoluzione init.sql
+#non vorrei creare troppo scompiglio per un file dal peso di circa 25Mb "inutile" per ora
+#dato che non è ancora stato utilizzato 
+#e non rappresenta il modello finale del database ma solo i csv raggruppati
