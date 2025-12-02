@@ -8,6 +8,9 @@ REM Il comando 'up -d db' fa partire solo il servizio db definito nel docker-com
 echo [1/2] Avvio il database Docker...
 docker-compose up -d db
 
+REM 1.5 (Opzionale) Pulizia dati - Togli il REM qui sotto se hai abilitato il servizio 'cleaning' nel docker-compose
+REM docker-compose up cleaning
+
 REM 2. Attesa di sicurezza
 REM Diamo tempo al database di inizializzarsi completamente prima di connetterci
 echo Attendo 5 secondi che il database sia pronto...

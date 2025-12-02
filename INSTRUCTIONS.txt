@@ -2,6 +2,15 @@
 ISTRUZIONI PER ESEGUIRE IL PROGETTO
 =============================================================================
 
+0.5. 🧹 (OPZIONALE) PULIZIA DATI
+   Se hai nuovi file CSV nella cartella 'data/raw' e vuoi rigenerare i file puliti in 'data/processed'.
+   
+   1. Apri 'docker-compose.yml' e togli i commenti (##) alla sezione 'cleaning'.
+   2. Esegui: docker-compose up cleaning
+   3. (Opzionale) Ricommenta la sezione 'cleaning' nel docker-compose.yml.
+
+-----------------------------------------------------------------------------
+
 1. 🟢 AVVIARE IL DATABASE (Docker)
    Esegui questo comando per accendere il container del database in background.
    Il flag '-d' lo fa girare in background (detached).
