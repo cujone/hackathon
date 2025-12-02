@@ -1,0 +1,53 @@
+=============================================================================
+ISTRUZIONI PER ESEGUIRE IL PROGETTO
+=============================================================================
+
+1. 🟢 AVVIARE IL DATABASE (Docker)
+   Esegui questo comando per accendere il container del database in background.
+   Il flag '-d' lo fa girare in background (detached).
+   'db' specifica di avviare solo il servizio database.
+   (stesso comando sia per powershell che wsl
+   dato che "&" tecnicamente funziona, ma docker continua a stampare i log a schermo 
+   e sembra che il terminale sia bloccato quando non lo è
+   usiamo allora il flag specifico di docker)
+
+   COMMAND (Windows/WSL/Linux): docker-compose up -d db
+
+-----------------------------------------------------------------------------
+
+2. 🐍 ESEGUIRE LO SCRIPT PYTHON
+   Questo comando avvia lo script che legge i CSV dalla cartella 'data/processed'
+   e li carica nel database MySQL. Usa l'interprete Python nell'ambiente virtuale.
+   
+   COMMAND (Windows): .venv\Scripts\python src/main.py
+   
+   COMMAND (WSL/Linux): ./.venv/bin/python src/main.py
+   (NOTA: Su WSL non puoi usare il .venv creato su Windows perché i file .exe non funzionano. 
+    Devi ricreare l'ambiente: 'python3 -m venv .venv_wsl' -> 'source .venv_wsl/bin/activate' -> 'pip install -r requirements.txt')
+
+-----------------------------------------------------------------------------
+
+3. 🔍 CONTROLLARE LO STATO
+   Verifica che il container del database sia attivo e funzionante.
+   Dovresti vedere 'db_universita' nella lista.
+   
+   COMMAND (Windows): docker ps
+   
+   COMMAND (WSL/Linux): ps -e | grep docker
+
+-----------------------------------------------------------------------------
+
+4. 🔴 STOPPARE TUTTO
+   Quando hai finito, spegni il database per liberare memoria e risorse.
+   Questo ferma e rimuove i container (i dati rimangono salvi nel volume).
+   
+   COMMAND (Windows/WSL/Linux): docker-compose down
+
+=============================================================================
+CONNESSIONE AL DATABASE (MySQL Workbench)
+=============================================================================
+Host:     localhost (o 127.0.0.1)
+Port:     3307
+User:     root
+Password: root
+Database: universita_db
