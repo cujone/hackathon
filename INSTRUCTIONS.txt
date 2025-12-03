@@ -26,11 +26,13 @@ ISTRUZIONI PER ESEGUIRE IL PROGETTO
 
 2. 🐍 ESEGUIRE LO SCRIPT PYTHON
    Questo comando avvia lo script che legge i CSV dalla cartella 'data/processed'
-   e li carica nel database MySQL. Usa l'interprete Python nell'ambiente virtuale.
+   e li carica nel database MySQL.
    
-   COMMAND (Windows): .venv\Scripts\python src/main.py
+   COMMAND (Docker - CONSIGLIATO): docker-compose run --rm app python src/main.py
    
-   COMMAND (WSL/Linux): ./.venv/bin/python src/main.py
+   COMMAND (Locale Windows): .venv\Scripts\python src/main.py
+   
+   COMMAND (Locale WSL/Linux): ./.venv/bin/python src/main.py
    (NOTA: Su WSL non puoi usare il .venv creato su Windows perché i file .exe non funzionano. 
     Devi ricreare l'ambiente: 'python3 -m venv .venv_wsl' -> 'source .venv_wsl/bin/activate' -> 'pip install -r requirements.txt')
 
@@ -54,7 +56,7 @@ ISTRUZIONI PER ESEGUIRE IL PROGETTO
 
 -----------------------------------------------------------------------------
 
-5. 📸 SALVARE LO STATO (SNAPSHOT)
+4.5. 📸 SALVARE LO STATO (SNAPSHOT)
    Se vuoi salvare i dati attuali nel file 'init.sql' per distribuire il progetto
    o per avere un backup:
    
