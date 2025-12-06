@@ -5,7 +5,7 @@ import os
 # Docker mounts /app/data so paths are relative to /app (which is current working dir usually, or handled by script path)
 # The script is likely run from the root of the project in the container
 
-input_path = "data/DNFobservatory2022.csv"
+input_path = "data/raw/DNFobservatory2022.csv"
 output_path = "data/processed/DNFobservatory_clean.csv"
 
 # Ensure output directory exists (although processed probably exists)
@@ -54,6 +54,10 @@ try:
     df_clean = df[existing_cols]
     
     print(f"Selected {len(df_clean.columns)} columns.")
+
+    ######cleaning code here######
+
+    ##############################
     
     # Save to CSV
     df_clean.to_csv(output_path, index=False, sep=";")

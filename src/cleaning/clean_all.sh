@@ -41,8 +41,12 @@ python /app/src/cleaning/dyson_laureati.py
 echo "Running dyson_prevgenere.py..."
 python /app/src/cleaning/dyson_prevgenere.py
 
+
 echo "Running dyson_specializzandi.py..."
 python /app/src/cleaning/dyson_specializzandi.py
+
+echo "Running dyson_DNF.py..."
+python /app/src/cleaning/dyson_DNF.py
 
 echo "All scripts executed successfully."
 
