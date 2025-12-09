@@ -26,9 +26,9 @@ services:
     #connette i giusti percorsi ora per il codice python e il database nel container
     #permette di caricare nell'ambiente del container senza dover creare l'ambiente locamente
     volumes:
-      - ./src:/app/src     # Mappa il codice (così se lo modifichi, si aggiorna)
-      - ./data:/app/data   # Mappa la cartella dei dati (CSV sporchi e puliti)
-      
+      - ./src:/app/src # Mappa il codice (così se lo modifichi, si aggiorna)
+      - ./data:/app/data # Mappa la cartella dei dati (CSV sporchi e puliti)
+
     environment:
       # Queste sono le info che userai nel tuo codice per collegarti
       DB_HOST: db
@@ -36,16 +36,16 @@ services:
       DB_PASSWORD: root
       DB_NAME: universita_db
   # CLEANING (Servizio opzionale per pulire i dati)
-  # Togli i "##" per abilitare questo servizio
-  ##cleaning:
-  ##  build: .
-  ##  container_name: cleaning_universita
-  ##  volumes:
-  ##    - ./src:/app/src
-  ##    - ./data:/app/data
-  ##  command: ["/bin/bash", "/app/src/cleaning/clean_all.sh"]
-  ##  depends_on:
-  ##    - db
+  # Togli/aggiungi i "##" per abilitare/disabilitare questo servizio
+  cleaning:
+    build: .
+    container_name: cleaning_universita
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+    command: [ "/bin/bash", "/app/src/cleaning/clean_all.sh" ]
+    depends_on:
+      - db
 
 volumes:
   db_data:

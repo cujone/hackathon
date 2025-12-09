@@ -14,39 +14,30 @@ echo "Processing files in /app/data/raw..."
 # We use python /app/src/cleaning/<script_name> because the scripts are mounted there
 # The scripts will read from current dir (raw) and write to current dir (raw)
 
-echo "Running dyson_accademico_ambito.py..."
-python /app/src/cleaning/dyson_accademico_ambito.py
+# Function to run cleaning script if input file exists
+run_cleaning() {
+    script_name=$1
+    input_file=$2
+    
+    if [ -f "$input_file" ]; then
+        echo "Running $script_name..."
+        python "/app/src/cleaning/$script_name"
+    else
+        echo "Skipping $script_name - $input_file not found."
+    fi
+}
 
-echo "Running dyson_accademico_profilo.py..."
-python /app/src/cleaning/dyson_accademico_profilo.py
-
-echo "Running dyson_atenei.py..."
-python /app/src/cleaning/dyson_atenei.py
-
-echo "Running dyson_dottorandi.py..."
-python /app/src/cleaning/dyson_dottorandi.py
-
-echo "Running dyson_dottori.py..."
-python /app/src/cleaning/dyson_dottori.py
-
-echo "Running dyson_immatricolati.py..."
-python /app/src/cleaning/dyson_immatricolati.py
-
-echo "Running dyson_iscritti.py..."
-python /app/src/cleaning/dyson_iscritti.py
-
-echo "Running dyson_laureati.py..."
-python /app/src/cleaning/dyson_laureati.py
-
-echo "Running dyson_prevgenere.py..."
-python /app/src/cleaning/dyson_prevgenere.py
-
-
-echo "Running dyson_specializzandi.py..."
-python /app/src/cleaning/dyson_specializzandi.py
-
-echo "Running dyson_DNF.py..."
-python /app/src/cleaning/dyson_DNF.py
+run_cleaning "dyson_accademico_ambito.py" "bdg_serie_academic_staff_ambito.csv"
+run_cleaning "dyson_accademico_profilo.py" "bdg_serie_academic_staff_profilo.csv"
+run_cleaning "dyson_atenei.py" "cod_atenei.csv"
+run_cleaning "dyson_dottorandi.py" "bdg_serie_dottorandi.csv"
+run_cleaning "dyson_dottori.py" "bdg_serie_dottori.csv"
+run_cleaning "dyson_immatricolati.py" "bdg_serie_immatricolati.csv"
+run_cleaning "dyson_iscritti.py" "bdg_serie_iscritti.csv"
+run_cleaning "dyson_laureati.py" "bdg_serie_laureati.csv"
+run_cleaning "dyson_prevgenere.py" "bdg_classi_prevgenere_serie-triennale.csv"
+run_cleaning "dyson_specializzandi.py" "bdg_specializzandi_serie-triennale.csv"
+run_cleaning "dyson_DNF.py" "DNFobservatory2022.csv"
 
 echo "All scripts executed successfully."
 

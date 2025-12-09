@@ -1,0 +1,11 @@
+Conteggio dei valori mancanti (NULL) per colonna:
+Aziende_nel_Database                        0
+Settore                                     9
+ATECO                                       8
+Regioni                                     9
+N_uomini_dipendenti                        10
+N_donne_dipendenti                         10
+Disuguaglianza_salariale_di_genere_(%)    137
+Eta_media_dipendenti_(%)                  183
+
+Accuratezza del dataset pulito: 2.16%
