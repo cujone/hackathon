@@ -3,6 +3,9 @@ REM ==========================================
 REM SCRIPT DI AVVIO AUTOMATICO PROGETTO (Windows)
 REM ==========================================
 
+REM 0.0. Prerequisito
+REM Assicurati che Docker Desktop sia aperto e in esecuzione, altrimenti lo script fallirà.
+
 REM 1. Avvia il database Docker in background
 REM Il comando 'up -d db' fa partire solo il servizio db definito nel docker-compose.yml
 echo [1/2] Avvio il database Docker...

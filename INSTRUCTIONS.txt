@@ -2,6 +2,9 @@
 ISTRUZIONI PER ESEGUIRE IL PROGETTO
 =============================================================================
 
+0.0. 🐳 DOCKER DESKTOP
+   Assicurati che Docker Desktop sia aperto e in esecuzione prima di lanciare qualsiasi comando.
+
 0.5. 🧹 (OPZIONALE) PULIZIA DATI
    Se hai nuovi file CSV nella cartella 'data/raw' e vuoi rigenerare i file puliti in 'data/processed'.
    
