@@ -23,7 +23,21 @@ ISTRUZIONI PER ESEGUIRE IL PROGETTO
    e sembra che il terminale sia bloccato quando non lo è
    usiamo allora il flag specifico di docker)
 
+
+
    COMMAND (Windows/WSL/Linux): docker-compose up -d db
+
+-----------------------------------------------------------------------------
+
+1.5. 💡 CAPIRE DOCKER E IL DATABASE
+   - QUANDO DOCKER È ATTIVO (UP): Il database è acceso. Puoi collegarti con MySQL Workbench
+     (Host: 127.0.0.1, Port: 3307) e vedere/modificare i dati.
+   
+   - QUANDO FAI DOCKER DOWN: Il container si spegne. Non puoi più collegarti a Workbench.
+     Tuttavia, i dati NON sono persi. Sono salvati in un "Volume".
+     Se riaccendi Docker (punto 1), ritrovi tutto.
+   
+   - ATTENZIONE: Se usi 'docker-compose down -v' (con la v), CANCELLI anche il volume (i dati).
 
 -----------------------------------------------------------------------------
 
@@ -75,3 +89,14 @@ Port:     3307
 User:     root
 Password: root
 Database: universita_db
+
+=============================================================================
+CHEAT SHEET COMANDI RAPIDI (RESUME)
+=============================================================================
+0.5. Pulizia Totale:       docker-compose down -v
+1. Avvio Database:       docker-compose up -d db
+2. Carica Dati (Py):     docker-compose run --rm app python src/main.py
+3. Stato Container:      docker ps
+4. Stop e Rimuovi:       docker-compose down
+4.5. Snapshot DB:          .\save_db_snapshot.bat (Windows)
+=============================================================================

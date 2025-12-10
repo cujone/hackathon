@@ -27,6 +27,11 @@ The project is containerized using Docker to ensure a consistent environment.
 - **`app` (`python:3.9`)**: Runs the python code (`src/main.py`) to augment the database.
 - **`cleaning`**: An optional service to automate the cleaning of raw CSVs.
 
+### 🔄 Docker Lifecycle & Database Persistence
+- **Running (`up`)**: When Docker is running, the database is accessible via MySQL Workbench on port 3307.
+- **Stopped (`down`)**: When stopped, connection is lost, but data **persists** in the `db_data` volume.
+- **Reset (`down -v`)**: Valid persistence is only cleared if the volume flag `-v` is used during shutdown.
+
 ### 🐙 Git & Version Control
 - **Repository**: The project uses Git for version control.
 - **Workflow**: The entire project followed the standard **GitHub Workflow** for collaboration and versioning.
