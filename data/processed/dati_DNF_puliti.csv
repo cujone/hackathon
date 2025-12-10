@@ -1,6 +1,28 @@
-Aziende_nel_Database;Settore;ATECO;Regioni;N_uomini_dipendenti;N_donne_dipendenti;Disuguaglianza_salariale_di_genere_(€);Eta_media_dipendenti
-BANCO BPM;Banks;641910;Lombardia;10822;9332;84;49
-ERG;Energy;701000;Liguria;404;169;95;42
-GPI SPA;Services ;620100;Trentino-Alto Adige;2407;4470;85;41
-IBL BANCA;Banks;641910;Lazio;372;485;105;40
-MEDIOBANCA;Banks;641910;Lombardia ;2911;2105;76;43
+Aziende_nel_Database;Settore;ATECO;Regioni;N_uomini_dipendenti;N_donne_dipendenti;Eta_media_dipendenti
+ACEA;Energy;360000;Lazio;5147;1616;45
+ASCOPIAVE;Services;701000;Veneto;402;111;47
+ASSICURAZIONI GENERALI;Utilities;701000;Lazio;41620;41440;45
+BANCA DI CIVIDALE SCPA - CIVIBANK;Banks;641910;Friuli-Venezia Giulia;970;919;45
+BANCA DI CREDITO POPOLARE;Banks;641910;Campania;328;186;52
+BANCA GENERALI SPA;Banks;641910;Friuli-Venezia Giulia;522;500;45
+BANCA SELLA;Banks;641910;Piemonte;2840;2415;43
+BANCO BPM;Banks;641910;Lombardia;10822;9332;49
+BRUNELLO CUCINELLI;Textile;143900;Umbria;902;1570;39
+CARRARO;Machine and Plant;281510;Veneto;2448;320;42
+CASSA CENTRALE BANCA CREDITO COOPERATIVO ITALIANO S.P.A.;Banks;641910;Trentino-Alto Adige;6750;4952;45
+ERG;Energy;701000;Liguria;404;169;42
+ESSELUNGA (dnf reperibile solo online);Food and Beverage;471120;Lombardia;13790;11283;41
+FERROVIE DELLO STATO ITALIANE;Logistics and Transport;701000;Lazio;68289;17072;42
+GEOX;Manufacturing ;152010;Veneto;779;2037;37
+GPI SPA;Services ;620100;Trentino-Alto Adige;2407;4470;41
+IBL BANCA;Banks;641910;Lazio;372;485;40
+ILLIMITY BANK SPA;Banks;641910;Lombardia ;487;366;36
+ITALGAS;Energy;352200;Lombardia ;3024;653;48
+LANDI RENZO;Automotive ;293209;Emilia Romagna ;681;254;40
+MAIRE TECNIMONT;Machine and Plant ;711210;Lazio;5161;1290;43
+MEDIOBANCA;Banks;641910;Lombardia ;2911;2105;43
+OPENJOBMETIS;Services;782000;Lombardia;178;616;40
+PIRELLI;Manufacturing;221110;Lombardia;26698;4603;39
+RETELIT SPA;Electronics;611000;Lombardia;449;172;43
+SARAS;Oil and Gas;192010;Sardegna;1373;203;46
+TIM;Telecommunications;610000;Lombardia;31268;19124;49

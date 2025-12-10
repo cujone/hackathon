@@ -1,0 +1,10 @@
+INSERT INTO corso VALUES (1,'Agriculture, forestry, fisheries and veterinary'),
+(2,'Arts and humanities'),
+(3,'Business, administration and law'),
+(4,'Education'),
+(5,'Engineering, manufacturing and construction'),
+(6,'Health and welfare'),
+(7,'Information and Communication Technologies (ICTs)'),
+(8,'Natural sciences, mathematics and statistics'),
+(9,'Services'),
+(10,'Social sciences, journalism and information');

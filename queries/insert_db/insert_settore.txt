@@ -1,0 +1,13 @@
+INSERT INTO settore VALUES (1,'Energy'),
+(2,'Services'),
+(3,'Utilities'),
+(4,'Banks'),
+(5,'Textile'),
+(6,'Machine_and_plant'),
+(7,'Food_and_beverage'),
+(8,'Logistics_and_transport'),
+(9,'Manufacturing'),
+(10,'Automotive'),
+(11,'Electronics'),
+(12,'Oil_and_gas'),
+(13,'Telecommunications');
