@@ -2,7 +2,14 @@
 ISTRUZIONI PER ESEGUIRE IL PROGETTO
 =============================================================================
 
-0.0. 🐳 DOCKER DESKTOP
+0.0. 🔄 REFRESH DATABASE (RIPRISTINO)
+   Se vuoi cancellare tutto e ripartire con il database pulito (solo CompUnItaly):
+   
+   COMMAND: docker-compose down -v
+   
+   (Poi procedi al Punto 1 per riavviarlo)
+
+0.1. �🐳 DOCKER DESKTOP
    Assicurati che Docker Desktop sia aperto e in esecuzione prima di lanciare qualsiasi comando.
 
 0.5. 🧹 (OPZIONALE) PULIZIA DATI
@@ -25,7 +32,7 @@ ISTRUZIONI PER ESEGUIRE IL PROGETTO
 
 
 
-   COMMAND (Windows/WSL/Linux): docker-compose up -d db
+   COMMAND (docker compose): docker compose up -d db
 
 -----------------------------------------------------------------------------
 
@@ -41,10 +48,11 @@ ISTRUZIONI PER ESEGUIRE IL PROGETTO
 
 -----------------------------------------------------------------------------
 
-2. 🐍 ESEGUIRE LO SCRIPT PYTHON
-   Questo comando avvia lo script che legge i CSV dalla cartella 'data/processed'
-   e li carica nel database MySQL.
-   
+2. 🐍 ESEGUIRE LO SCRIPT PYTHON (OPZIONALE: CARICA CSV NEL DB)
+   ⚠️ ATTENZIONE: Questo comando carica TUTTI i file CSV puliti nel database come nuove tabelle.
+   Se vuoi mantenere SOLO le tabelle 'CompUnItaly' (ateneo, studenti, ecc.), SALTA QUESTO PASSAGGIO.
+   (L'analisi al punto 2.5 funziona anche senza questo passaggio, perché legge direttamente i CSV).
+
    COMMAND (Docker - CONSIGLIATO): docker-compose run --rm app python src/main.py
 
 -----------------------------------------------------------------------------
@@ -96,7 +104,7 @@ CHEAT SHEET COMANDI RAPIDI (RESUME)
 =============================================================================
 0.5. Pulizia Totale:       docker-compose down -v
 1. Avvio Database:       docker-compose up -d db
-2. Carica Dati (Py):     docker-compose run --rm app python src/main.py
+2. Carica CSV (Opz):  docker-compose run --rm app python src/main.py
 2.5. Genera Analisi:       docker-compose run --rm app python src/analysis/career_progression.py
 3. Stato Container:      docker ps
 4. Stop e Rimuovi:       docker-compose down
