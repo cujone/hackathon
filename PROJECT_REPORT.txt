@@ -1,0 +1,57 @@
+# PROJECT REPORT: Hackathon University Data
+
+## 1. Project Overview
+This project is a data engineering and analysis pipeline focused on Italian Industry and University data. Its primary goal is to centralize, clean, and analyze data regarding corporate and university employees, work and university fields, students, graduates, with a strong emphasis on gender analysis and career progression.
+
+**Core Objective:** Enable analysis of the "leaky pipeline" (career progression vs. gender) using the `CompUnItaly` dataset and additional processed metrics.
+
+## 2. Project Structure
+
+### 📂 File System
+- **`data/`**: Storage for data files.
+    - `raw/`: Original CSV files (input). **Note**: The raw files can be downloaded from the links provided in the project's presentation.
+    - `processed/`: Cleaned CSV files ready for database import.
+    - `results/`: Results of the analysis through the last decade (2013-2022) about gender and career progression in the italian university world. We decided to focus on the 2022 data.
+- **`src/`**: Source code for the application.
+    - `cleaning/`: Python scripts to transform raw data into processed data.
+    - `main.py`: The entry point script that can connect to the database and upload processed CSV files.
+    - `analysis/`: Python scripts to perform analysis on the csv data. Needed for the "career_progression_summary.csv" file in /data/results.
+- **`init_db/`**: Database initialization scripts.
+    - **`init.sql` (Deactivated)**: A large SQL dump created by taking the CSV data and converting it into a database snapshot. This file is currently renamed/deactivated to optimize startup time, in favor of the modular `CompUnItaly DB` scripts.
+    - **`CompUnItaly DB/`**: The detailed SQL dumps containing the core dataset (`ateneo`, `studenti`, `docenti`, etc.). This is the **foundation** of the project.
+- **`queries/`**: SQL queries used for data insertion or extraction. Need for the trasformation of the cleaned csv files into the CompUnItaly DB database.
+
+### 🐳 Docker Architecture
+The project is containerized using Docker to ensure a consistent environment.
+- **`db` (`mysql:8.0`)**: Runs on port **3307**. Pre-loaded with the `CompUnItaly` dataset.
+- **`app` (`python:3.9`)**: Runs the python code (`src/main.py`) to augment the database.
+- **`cleaning`**: An optional service to automate the cleaning of raw CSVs.
+
+### 🐙 Git & Version Control
+- **Repository**: The project uses Git for version control.
+- **Workflow**: The entire project followed the standard **GitHub Workflow** for collaboration and versioning.
+- **Ignore Rules**: Properly configured `.gitignore` to keep the repository clean.
+
+## 3. Workflow & Guidelines
+
+### A. Data Cleaning Process
+1.  Download raw CSVs from the project presentation links and place them in `data/raw`.
+2.  Run `docker-compose up cleaning` to generate clean files in `data/processed`.
+
+### B. Database Initialization
+1.  **Active Loader**: The `CompUnItaly DB` folder is automatically loaded by the custom `init_db/01_load_compunitaly.sh` script.
+2.  **Snapshot**: The `init.sql` (snapshot of CSVs) is deactivated to prioritize the modular structure.
+
+### C. Analysis & Results
+- **Current Status**: The database is UP and RUNNING on port **3307**.
+- **Verified Data**:
+    - The database is populated with data from the analyzed CSVs.
+    - **Included Tables**: `ateneo`, `azienda`, `corso`, `gruppo_dipendenti`, `gruppo_laureati`, `gruppo_studenti`, `settore`.
+    - **Excluded Data**: We selectively used the CSVs. The following files were **discarded** and not used for the final database:
+        - `dati_accademico_profilo_puliti.csv`
+        - `dati_dottorandi_puliti.csv`
+        - `dati_dottori_puliti.csv`
+        - `dati_prevgenere_puliti.csv`
+
+## 4. Summary for Hackathon
+This is a fully containerized "Data Lakehouse" setup. The raw data is cleaned via Python, stored in a structured MySQL relational database, and ready for high-level statistical analysis. The infrastructure is robust, reproducible via Docker, and version-controlled following the GitHub Workflow.
