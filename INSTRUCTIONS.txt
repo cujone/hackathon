@@ -46,12 +46,13 @@ ISTRUZIONI PER ESEGUIRE IL PROGETTO
    e li carica nel database MySQL.
    
    COMMAND (Docker - CONSIGLIATO): docker-compose run --rm app python src/main.py
+
+-----------------------------------------------------------------------------
+
+2.5. 📊 ESEGUIRE L'ANALISI (Career Progression)
+   Questo comando genera i risultati e il file 'career_progression_summary.csv' in 'data/results'.
    
-   COMMAND (Locale Windows): .venv\Scripts\python src/main.py
-   
-   COMMAND (Locale WSL/Linux): ./.venv/bin/python src/main.py
-   (NOTA: Su WSL non puoi usare il .venv creato su Windows perché i file .exe non funzionano. 
-    Devi ricreare l'ambiente: 'python3 -m venv .venv_wsl' -> 'source .venv_wsl/bin/activate' -> 'pip install -r requirements.txt')
+   COMMAND (Docker): docker-compose run --rm app python src/analysis/career_progression.py
 
 -----------------------------------------------------------------------------
 
@@ -96,7 +97,9 @@ CHEAT SHEET COMANDI RAPIDI (RESUME)
 0.5. Pulizia Totale:       docker-compose down -v
 1. Avvio Database:       docker-compose up -d db
 2. Carica Dati (Py):     docker-compose run --rm app python src/main.py
+2.5. Genera Analisi:       docker-compose run --rm app python src/analysis/career_progression.py
 3. Stato Container:      docker ps
 4. Stop e Rimuovi:       docker-compose down
 4.5. Snapshot DB:          .\save_db_snapshot.bat (Windows)
+
 =============================================================================
