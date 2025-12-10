@@ -57,6 +57,8 @@ The project is containerized using Docker to ensure a consistent environment.
         - `dati_dottorandi_puliti.csv`
         - `dati_dottori_puliti.csv`
         - `dati_prevgenere_puliti.csv`
+    - **Analytics & Graphs**: The database is actively used for analytics queries. The resulting visual graphs and detailed charts are included in the **official project presentation** located in the project folder "hackathon" (external to the Docker container).
+    - **Project Story**: The presentation also provides the complete chronicle of the project, detailing its construction from scratch and the evolution of the work.
 
 ## 4. Summary for Hackathon
 This is a fully containerized "Data Lakehouse" setup. The raw data is cleaned via Python, stored in a structured MySQL relational database, and ready for high-level statistical analysis. The infrastructure is robust, reproducible via Docker, and version-controlled following the GitHub Workflow.
